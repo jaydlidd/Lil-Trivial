@@ -1,0 +1,39 @@
+=====================================================================================
+Lil' Tipsy
+Genre: Game/Social
+Release Date: TBA (Mid Feb-Early Mar)
+Company: Jayden Liddelow
+Package Name: com.JaydenLiddelow.LittleTipsy
+=====================================================================================
+
+*************************************************************************************
+CHANGELOG
+*************************************************************************************
+-----------
+Version 1.1
+-----------
++ Difficulty per pack added, increasing base number of drinks for the questions (more for harder questions)
++ Added feature to edit players during a game
++ Added catch to ensure empty player names were not accepted
++ Adjusted drink tracking to ensure no errors with questions, and to be more reliable
++ Adjusted a few UI objects to fit reliably on the screen
+
+-----------
+Version 1.2
+-----------
+- Removed drinks text from play game scene to fit with Apple Developer Requirements
++ Adjusted number of drinks, decreasing them significantly
+
+-----------
+Version 1.3
+-----------
++ Adjusted drinks display such that it only displays when necessary (for certain packs it isn't require)
++ Changed the name for iOS only
+
+-----------
+Version 1.4
+-----------
++ Updated to ensure battles has two players, one of them not named Jayden.
+- Removed games pack from iOS, ensuring no references to drinking
+- Removed all references to drinking (drink, drinks) from questions
++ Added 30 new questions to various packs
