@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using System.IO;
 using System;
 
 public class GameManager : MonoBehaviour
@@ -13,6 +12,7 @@ public class GameManager : MonoBehaviour
     public GameObject PackSelection;
     public GameObject PlayGame;
     public GameObject PlayerManage;
+    public GameObject ScoreBoard;
 
     // List of question packs for game
     private List<QuestionPack> packs = new List<QuestionPack>();
@@ -72,6 +72,10 @@ public class GameManager : MonoBehaviour
     public Button addPlayerButton;
     public Button editGameButton;
 
+    // Scoreboard scene buttons
+    public Button scoreBackButton;
+    public Button scoreBoardButton;
+
     // Variables tracking number of questions in games
     private int totalQuestions;
 
@@ -87,6 +91,9 @@ public class GameManager : MonoBehaviour
 
     // Handling the warning messages and buttons
     public Button warningMessageButton;
+
+    // Create a new scoreboard
+    public ScoreManager scoreManager;
 
     void Start()
     {
@@ -109,6 +116,10 @@ public class GameManager : MonoBehaviour
         acceptPlayersButton.onClick.AddListener(AcceptPlayersButtonTaskOnClick);
         addPlayerButton.onClick.AddListener(AddPlayersButtonTaskOnClick);
         editGameButton.onClick.AddListener(EditGameTaskOnClick);
+
+        // Set up buttons in Scoreboard
+        scoreBoardButton.onClick.AddListener(ScoreBoardTaskOnClick);
+        scoreBackButton.onClick.AddListener(BackTaskOnClick);
 
         // Display warning message on start
         warningMessageButton.onClick.AddListener(WarningMessageButtonTaskOnClick);
@@ -210,8 +221,6 @@ public class GameManager : MonoBehaviour
         string currentFormat;
 
         player1Text.text = player;
-
-        
 
         while (newNumber == false){
             if (usedNum.Count == totalQuestions)
@@ -491,6 +500,7 @@ public class GameManager : MonoBehaviour
 
     void ManagePlayerTaskOnClick()
     {
+        ScoreBoard.SetActive(false);
         PackSelection.SetActive(false);
         PlayGame.SetActive(false);
         PlayerManage.SetActive(true);
@@ -498,9 +508,27 @@ public class GameManager : MonoBehaviour
 
     void EditGameTaskOnClick()
     {
+        ScoreBoard.SetActive(false);
         PackSelection.SetActive(true);
         PlayGame.SetActive(false);
         PlayerManage.SetActive(false);
+    }
+
+    void ScoreBoardTaskOnClick()
+    {
+        ScoreBoard.SetActive(true);
+        PlayGame.SetActive(false);
+        PlayerManage.SetActive(false);
+        PackSelection.SetActive(false);
+        scoreManager.displayScore();
+    }
+
+    void BackTaskOnClick()
+    {
+        ScoreBoard.SetActive(false);
+        PlayGame.SetActive(true);
+        PlayerManage.SetActive(false);
+        PackSelection.SetActive(false);
     }
 
     void AcceptPlayersButtonTaskOnClick()
@@ -525,6 +553,9 @@ public class GameManager : MonoBehaviour
 
             g.GetComponentInChildren<TextMeshProUGUI>().text = playerNameInput.text;
             players.Add(playerNameInput.text);
+
+            // Add player to the scoreboard
+            scoreManager.addPlayer(playerNameInput.text);
         }
 
         playerNameInput.text = "";
