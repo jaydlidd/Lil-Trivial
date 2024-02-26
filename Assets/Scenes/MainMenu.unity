@@ -214,7 +214,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &23963826
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1969,7 +1969,7 @@ GameObject:
   - component: {fileID: 511002648}
   - component: {fileID: 511002647}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6358,7 +6358,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1973634979
 RectTransform:
   m_ObjectHideFlags: 0
