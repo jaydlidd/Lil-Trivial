@@ -1,17 +1,17 @@
-Dance-off, group votes for the loser.
-Rock-Paper-Scissors, winner gets a point.
-Say "I once..." and finish the sentence. You can tell the truth or lie, but your opponent must guess which.
-Make a sentence, each player adds a word to the sentence until the sentence ends, the last player to add a word wins a point.
-Like this players oldest photo on Facebook or Instagram for a point.
-Who is more likely to keep up with celebrities? The out-of-touch player wins a point.
-Which player would survive a zombie apocalypse? The dead one wins a point.
-Who looks more like a dog? Pooch gets a point.
-Player to draw the best banana wins. Winner gets a point. Group votes.
-Player to draw the best heart wins. Winner gets a point. Group votes.
-Player to draw the best sunset wins. Winner gets a point. Group votes.
-Player to draw the best impression of their opponent wins. Winner gets a point. Group votes.
-Co-operate and play a prank on any other player in five minutes, succeed and win 5 points, fail and lose them.
-Chocolate, over-rated or under-rated? If you both agree, you both win a point. If you disagree, you both lose a point.
-Balloons, over-rated or under-rated? If you both agree, you both win a point. If you disagree, you both lose a point.
-Dogs, over-rated or under-rated? If you both agree, you both win a point. If you disagree, you both lose a point.
-Ferris Wheels, over-rated or under-rated? If you both agree, you both win a point. If you disagree, you both lose a point.
+Dance-off, group votes for the winner who gets the points.
+Rock-Paper-Scissors, winner gets the points.
+Say "I once..." and finish the sentence. You can tell the truth or lie, but your opponent must guess which. Winner gets the points.
+Make a sentence, each player adds a word to the sentence until the sentence ends, the last player to add a word wins the points.
+Like this players oldest photo on Facebook or Instagram for the points.
+Who is more likely to keep up with celebrities? The out-of-touch player wins the points.
+Which player would survive a zombie apocalypse? The dead one wins the points.
+Who looks more like a dog? Pooch gets the points.
+Player to draw the best banana wins. Winner gets the points. Group votes.
+Player to draw the best heart wins. Winner gets the points. Group votes.
+Player to draw the best sunset wins. Winner gets the points. Group votes.
+Player to draw the best impression of their opponent wins. Winner gets the points. Group votes.
+Co-operate and play a prank on any other player in five minutes, succeed and win the points, fail and lose them.
+Chocolate, over-rated or under-rated? If you both agree, you both win the points. If you disagree, you both lose the points.
+Balloons, over-rated or under-rated? If you both agree, you both win the points. If you disagree, you both lose the points.
+Dogs, over-rated or under-rated? If you both agree, you both win the points. If you disagree, you both lose the points.
+Ferris Wheels, over-rated or under-rated? If you both agree, you both win the points. If you disagree, you both lose the points.
