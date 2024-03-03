@@ -13,7 +13,7 @@ Picolo is the inspiration for the trivia and interesting questions portion of th
 The various minigames come from various inspirations such as pong, cookie clicker, and Super Mario Bros.
 
 #### Player Experience
-Players will start a new game by adding all of the player's first names to the list and selecting one or more of the game packs. Then by tapping through the prompts, they'll play the game for a set amount of rounds to determine a winner! They'll be given the option of starting a new game with the same player's or going back to the configuration screen.
+Players will start a new game by adding all of the player's first names to the list and selecting one or more of the game packs. Then by tapping through the prompts, they'll play the game for a set amount of rounds to determine a winner! They'll be given the option of starting a new game with the same players or going back to the configuration screen.
 
 #### Platform
 Android / iOS
@@ -43,3 +43,8 @@ All ages
 #### Controls
 
 ---------------------------------
+### Other Details
+#### Aspect Ratios
+2688 1242
+896 414
+448 207
